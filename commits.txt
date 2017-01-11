@@ -1,0 +1,11 @@
+commit 83858017e4c6c1a39eafa631f2614c984d951825
+Author: cesar <cesar.aky@gmail.com>
+Date:   Wed Jan 11 09:08:36 2017 -0300
+
+    cambio error tipeo inicio
+
+commit a822b9eca896ee9c4540974e573708d158adfce0
+Author: cesar <cesar.aky@gmail.com>
+Date:   Wed Jan 11 09:05:18 2017 -0300
+
+    iniciemos
