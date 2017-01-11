@@ -34,7 +34,7 @@
                 <center><h2>Desarrollo</h2></center>
                 <img class="img-responsive" src="<?= base_url(); ?>application/img/desarrollo.jpg" alt="">
                 <br>
-                <p style="text-align:justify; text-indent:2em">Sabemos que es sumamente importante la información para su empresa. Es por eso que contamos con profesionales en el desarrollo de soluciones informaticas web. Utilizando las mas actual tecnología. Estamos capacitados para responder ante cualquier problema empresarial. Lo que usted imagine lo hacemos. Necesita un sistema de control de asitencia?. Facturacion, contabilidad, puntos de venta, bodega y personalizado a su medida?</p>
+                <p style="text-align:justify; text-indent:2em">Sabemos que es sumamente importante la información para su empresa. Es por eso que contamos con profesionales en el desarrollo de soluciones informaticas web. Utilizando la mas actual tecnología. Estamos capacitados para responder ante cualquier problema empresarial. Lo que usted imagine lo hacemos. Necesita un sistema de control de asitencia?. Facturacion, contabilidad, puntos de venta, bodega y personalizado a su medida?</p>
                 <center><a class="btn btn-primary" href="<?= base_url(); ?>index.php/web/contacto">Consúltenos</a></center>
                 <p></p>
             </div>
