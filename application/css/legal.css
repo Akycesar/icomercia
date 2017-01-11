@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+body {outline:none}
+a:link {color: #015b86;text-decoration:none;outline:none}
+a:visited {color: #015b86;text-decoration:none;outline:none}
+a:hover {color: #029feb;text-decoration:underline;outline:none}
+a:active {color: #015b86;text-decoration:none;outline:none}
+#general {
+	position: absolute;
+	left: 0px;
+	right:0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	overflow:auto;
+	background-color:#CCC;
+	z-index: 0;
+}
+#contenido {
+	position: absolute;
+	left: 50%;
+	margin-left:-500px;
+	top: 0px;
+	bottom:0px;
+	width: 1000px;
+	height:1900px;
+	font-size:14px;
+	-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+	background-color:#fff;
+	z-index: 1;
+}
+#logo {
+	position: absolute;
+	left: 25px;
+	top: 10px;
+	z-index: 2;
+}
+#titulo {
+	position:absolute;
+	top:40px;
+	right:90px;
+	width:700px;
+	height:30px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#036;
+	font-size:20px;
+	text-align:right;
+	z-index:2
+}
+#info {
+	position:absolute;
+	text-align:justify;
+	top:100px;
+	left:50px;
+	width:900px;
+	height:auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:14px;
+	border-top:solid 1px #999999;
+	border-bottom:solid 1px #999999;
+	padding: 20px 0px 20px 0px;
+	z-index:2;
+}
+#contenedor {
+	position:relative;
+	margin-top:210px;
+	left:50px;
+	width:900px;
+	overflow:auto;
+	z-index:2;
+}
+
+.st-accordion ul li{height:auto;margin-left:-40px;}
+.st-accordion ul li > a span{visibility:hidden;}
+.wrapper{
+	width:900px;
+	margin-top:-15px;
+	left:0px;
+}
+.st-accordion{
+    width:100%;
+}
+.st-accordion ul li{
+    height:35px;
+    overflow: hidden;
+}
+.st-accordion ul li > a{
+	height:35px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 16px;
+	color:#015b86;
+    display: block;
+	border-bottom:inset 1px #666666;
+	position: relative;
+	line-height:normal;
+    -webkit-transition:  color 0.2s ease-in-out;
+	-moz-transition:  color 0.2s ease-in-out;
+	-o-transition:  color 0.2s ease-in-out;
+	-ms-transition:  color 0.2s ease-in-out;
+	transition:  color 0.2s ease-in-out;
+}
+.st-accordion ul li a:link {text-decoration:none;outline:none;}
+.st-accordion ul li a:visited {text-decoration:none;outline:none;}
+.st-accordion ul li a:hover {text-decoration:none;outline:none;}
+.st-accordion ul li a:active {text-decoration:none;outline:none;}
+
+.st-accordion ul li > a:hover{
+    color: #1693eb;
+}
+.st-accordion ul li > a:hover span{
+	opacity:1;
+	right: 10px;
+}
+.st-accordion ul li.st-open > a{
+    color:#930;
+	font-weight:bold;
+}
+.st-accordion ul li.st-open > a span{
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+    transform:rotate(180deg);
+	right:10px;
+	opacity:1;
+}
+.st-content{
+	padding:0px 20px 20px 0px;
+	border-radius:5px;
+}
+.st-content p{
+    font-size: 14px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#555;
+	text-align:justify;
+}
+.st-content p a:link {color: #222;outline:none;font-style:italic;}
+.st-content p a:active {color:#222;outline:none;font-style:italic;}
+.st-content p a:visited {color:#222;outline:none;font-style:italic;}
+.st-content p a:hover {color:#999;outline:none;font-style:italic;}
+#volver {position: absolute;right:30px;bottom:20px;width:50px;height:20px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:18px;z-index:10;}
+#volver a:link {color: #015b86;text-decoration:none;outline:none}
+#volver a:visited {color: #015b86;text-decoration:none;outline:none}
+#volver a:hover {color: #029feb;text-decoration:underline;outline:none}
+#volver a:active {color: #015b86;text-decoration:none;outline:none}
+#flechavolver {position:absolute;left:-45px;top:-3px;}
+#divbajo {
+	position: absolute;
+	left: 0px;
+	right:0px;
+	height: 40px;
+	bottom:0px;
+	z-index: 1;
+}
+#icomercia {
+	position: absolute;
+	left: 50%;
+	top: 10px;
+	width: 600px;
+	height: 20px;
+	margin-left: -300px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	color: #111;
+	font-size: 16px;
+	z-index: 15;
+}
